@@ -1,6 +1,9 @@
 /* Universal */
 * {
     font-family: "Nunito", sans-serif;
+    
+    /* Toggle visual aide */
+    border: 1px red solid;
 }
 
 body {
@@ -27,6 +30,13 @@ body {
 .flex-inline-cc {
     display: inline-flex;
     justify-content: center;
+    align-items: center;
+}
+
+.flex-cols-between-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -133,4 +143,29 @@ header {
     font-weight: 900;
     text-decoration: none;
     color: white;
+}
+
+/* Main Section */
+main {
+    width: 99%;
+    margin: 7px;
+}
+
+/* Section - Image Gallery ahd Two Paragraphs*/
+#gallery-two-paras {
+    width: 97%;
+}
+
+/* Image Gallery */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 222px;
+    box-shadow: 0 0 22px rgba(255 0 0 / 1);
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
