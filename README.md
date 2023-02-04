@@ -4,7 +4,14 @@ This is a direct copy from my other repository <a href="https://github.com/daryl
 ## <a href="https://daryldelrosario.github.io/practice-release-tag/">Current Live Demo</a>
 <kbd><a href="https://daryldelrosario.github.io/practice-release-tag/"><img src="./resources/co-landing-page-v0.2.0-ld.gif" alt="live demo gif"></a></kbd>
 
-## Releases   
+## Releases  
+<details>
+    <summary>v0.2.0 February 4, 2023</summary>
+
+- refactored all inline css into external css sheets
+- for full release notes <a href="https://github.com/daryldelrosario/practice-release-tag/releases/tag/v0.2.0">check here</a>
+</details>
+
 <details>
     <summary>v0.1.0 January 28, 2023</summary>   
 
