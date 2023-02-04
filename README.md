@@ -6,7 +6,8 @@ This is a direct copy from my other repository <a href="https://github.com/daryl
 
 ## Releases   
 <details>
-    <summary>v0.1.0</summary>   
+    <summary>v0.1.0 January 28, 2023</summary>   
 
-<a href="https://github.com/daryldelrosario/practice-release-tag/releases/tag/v0.1.0">Release Notes</a>
+- code used HTML only with a lot of inline-css
+- for full release notes <a href="https://github.com/daryldelrosario/practice-release-tag/releases/tag/v0.1.0">check here</a>
 </details>
