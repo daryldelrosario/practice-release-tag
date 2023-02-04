@@ -121,6 +121,7 @@ header {
 
 .ta-center > h1 {
     font-size: 2em;
+    margin: 7px;
 }
 
 .ta-center > p {
