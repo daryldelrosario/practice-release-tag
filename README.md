@@ -1,8 +1,8 @@
 # Practise Release Tags
 This is a direct copy from my other repository <a href="https://github.com/daryldelrosario/co-landing-page">co-landing-page</a> in an attempt to practice tagging and creating release notes. 
 
-## <a href="https://daryldelrosario.github.io/co-landing-page/">Current Live Demo</a>
-<kbd><a href="https://daryldelrosario.github.io/co-landing-page/"><img src="./resources/co-landing-page-ld.gif" alt="live demo gif"></a></kbd>
+## <a href="https://daryldelrosario.github.io/practice-release-tag/">Current Live Demo</a>
+<kbd><a href="https://daryldelrosario.github.io/practice-release-tag/"><img src="./resources/co-landing-page-ld.gif" alt="live demo gif"></a></kbd>
 
 ## Releases   
 <details>
