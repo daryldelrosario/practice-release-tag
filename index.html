@@ -226,7 +226,10 @@
                             With that, I could open up a separate canvas within this page to view another page.
                             For example, you can check out my whole HTML code down below:
                         </p>
-                        <iframe height="300" style="width: 100%;" scrolling="no" title="CO Personal Landing Page" src="https://codepen.io/daryldelrosario/embed/LYBBGNw?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                        <p class="note">
+                            Note: this code shows the previous version v0.1.0 when it was done with only HTML and inline-css. 
+                        </p>
+                        <iframe scrolling="no" title="CO Personal Landing Page" src="https://codepen.io/daryldelrosario/embed/LYBBGNw?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
                             See the Pen <a href="https://codepen.io/daryldelrosario/pen/LYBBGNw">
                             CO Personal Landing Page</a> by daryldelrosario (<a href="https://codepen.io/daryldelrosario">@daryldelrosario</a>)
                             on <a href="https://codepen.io">CodePen</a>.
@@ -240,35 +243,37 @@
                 <details>
                     <summary class="sum-header">Contact Us</summary>
                     <div class="sum-area">
-                        <div>
+                        
                             <form action="mailto:daryldelrosario.is@gmail.com" method="post" target="_blank">
-                                <div style="text-align: center; width: 77%; margin: 0 auto">
-                                    <h1 style="padding: 0; margin: 0">Enter Your Details Below and Submit</h1>
-                                    <h2 style="padding: 0; margin: 0; font-size: 1.3em">We will contact you within 24 hrs</h2>
-                                    <div style="padding: 7px">
-                                        <input type="text" id="fname" name="fname" style="padding: 5px; margin: 5px" placeholder="Enter your first name" required><br>
-                                        <input type="text" id="lname" name="lname" style="padding: 5px; margin: 5px" placeholder="Enter your last name" required><br>
-                                        <input type="text" id="email" name="email" style="padding: 5px; margin: 5px" placeholder="Enter your email" required><br>
-                                        <input type="text" id="phone" name="phone" style="padding: 5px; margin: 5px" placeholder="Enter your phone number" required><br>
+                                <div class="form-style">
+                                    <h1>Enter Your Details Below and Submit</h1>
+                                    <h2>We will contact you within 24 hrs</h2>
+                                    <div class="form-style-content">
+                                        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required><br>
+                                        <input type="text" id="lname" name="lname" placeholder="Enter your last name" required><br>
+                                        <input type="text" id="email" name="email" placeholder="Enter your email" required><br>
+                                        <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required><br>
                                     </div>  
                                     <br>
                                     <input type="submit" value="Submit">
                                 </div>
                             </form>
-                        </div>
+                        
                     </div>
                 </details>
             </section>
         </main>
 
         <!-- Simple Footer -->
-        <footer style="width: 99%; padding: 11px; margin-top: 11px; text-align: center; background-color: #25316D; color: #FAF7F0; font-size: 2em; font-weight: 900">
+        <footer>
             Daryl del Rosario &copy 2023 | 
-            <a href="https://www.linkedin.com/in/daryldelrosario/" target="_blank"><img src="https://github.com/daryldelrosario/co-landing-page/blob/main/resources/linkedin.png?raw=true" alt="linkedin icon" style="width: 22px; padding-right: 11px"></a>
-            <a href="https://www.facebook.com/darylxdr/" target="_blank"><img src="https://github.com/daryldelrosario/co-landing-page/blob/main/resources/facebook.png?raw=true" alt="facebook icon" style="width: 22px; padding-right: 11px"></a>
-            <a href="https://www.instagram.com/dnaxdr9407/" target="_blank"><img src="https://github.com/daryldelrosario/co-landing-page/blob/main/resources/instagram.png?raw=true" alt="instagram icon" style="width: 22px"></a>
-            <a href="https://www.youtube.com/channel/UC4h2JYNMjrT-D6JR6kHzz1Q" target="_blank"><img src="https://github.com/daryldelrosario/co-landing-page/blob/main/resources/youtube.png?raw=true" alt="youtube icon" style="width: 22px; padding-left: 11px"></a>
-            <a href="https://github.com/daryldelrosario" target="_blank"><img src="https://github.com/daryldelrosario/co-landing-page/blob/main/resources/github-circle.png?raw=true" alt="github icon" style="width: 22px; padding-left: 11px"></a>
+            <div class="flex-center-center footer-icons">
+                <a href="https://www.linkedin.com/in/daryldelrosario/" target="_blank"><img src="https://github.com/daryldelrosario/co-landing-page/blob/main/resources/linkedin.png?raw=true" alt="linkedin icon"></a>
+                <a href="https://www.facebook.com/darylxdr/" target="_blank"><img src="https://github.com/daryldelrosario/co-landing-page/blob/main/resources/facebook.png?raw=true" alt="facebook icon"></a>
+                <a href="https://www.instagram.com/dnaxdr9407/" target="_blank"><img src="https://github.com/daryldelrosario/co-landing-page/blob/main/resources/instagram.png?raw=true" alt="instagram icon"></a>
+                <a href="https://www.youtube.com/channel/UC4h2JYNMjrT-D6JR6kHzz1Q" target="_blank"><img src="https://github.com/daryldelrosario/co-landing-page/blob/main/resources/youtube.png?raw=true" alt="youtube icon"></a>
+                <a href="https://github.com/daryldelrosario" target="_blank"><img src="https://github.com/daryldelrosario/co-landing-page/blob/main/resources/github-circle.png?raw=true" alt="github icon"></a>
+            </div>  
         </footer>
     </body>
 </html>

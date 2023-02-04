@@ -255,3 +255,60 @@ main {
     height: 100%;
     width: 100%;
 }
+
+/* Blog Post */
+#blog iframe {
+    height: 555px;
+    width: 100%;
+}
+
+.note {
+    font-size: 0.9em;
+}
+
+/* Contact Section */
+.form-style {
+    text-align: center;
+    width: 77%;
+    margin: 0 auto;
+}
+
+.form-style h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.form-style h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+}
+
+.form-style-content {
+    padding: 7px;
+}
+
+.form-style-content input {
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Footer */
+footer {
+    width: 99%;
+    padding: 11px;
+    margin-top: 11px;
+    text-align: center;
+    background-color: #25316D;
+    color: #FAF7F0;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.footer-icons {
+    display: inline;
+}
+
+.footer-icons a img {
+    width: 22px;
+}
