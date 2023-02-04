@@ -169,3 +169,18 @@ main {
     width: 100%;
     object-fit: cover;
 }
+
+/* Two Paragraphs */
+.two-paras {
+    width: 77%;
+    margin: 13px auto;
+    background-color: #2D4263;
+    color: #F1F6F5;
+    border-radius: 3px;
+}
+
+.two-paras-content {
+    padding: 11px;
+    width: 55%;
+    margin: 0 auto;
+}
