@@ -10,3 +10,12 @@ body {
     height: 100%; 
     background-color: #CDFCF6;
 }
+
+/* Navigation Bar */
+#top {
+    width: 97%; 
+    padding: 11px; 
+    background-color: #25316D; 
+    color: #FAF7F0; 
+    border-radius: 3px;
+}
