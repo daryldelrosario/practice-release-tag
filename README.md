@@ -1,7 +1,7 @@
-# CO - Personal Landing Page
-HTML personal landing page. Made via HTML only and includes certain requirements.
+# Practise Release Tags
+This is a direct copy from my other repository <a href="https://github.com/daryldelrosario/co-landing-page">co-landing-page</a> in an attempt to practice tagging and creating release notes. 
 
-## <a href="https://daryldelrosario.github.io/co-landing-page/">Live Demo</a>
+## <a href="https://daryldelrosario.github.io/co-landing-page/">Current Live Demo</a>
 <kbd><a href="https://daryldelrosario.github.io/co-landing-page/"><img src="./resources/co-landing-page-ld.gif" alt="live demo gif"></a></kbd>
 
 ## Features
