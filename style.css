@@ -24,6 +24,12 @@ body {
     align-items: center;
 }
 
+.flex-inline-cc {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .ta-center {
     text-align: center;
 }
@@ -110,14 +116,21 @@ header {
     font-size: 1.2em;
 }
 
+.linked-btn-container {
+    padding: 11px;
+    border-radius: 22px;
+    background-color: rgba(0 0 0 / 0.55);
+    box-shadow: 0 0 10px rgb(0 255 255);
+}
+
+.cta-linkedin-icon {
+    width: 30px;
+    padding-right: 7px;
+}
+
 .linked-btn-content {
     font-size: 1.4em;
     font-weight: 900;
     text-decoration: none;
-    color: white;
-}
-
-.linked-btn-content > a {
-    text-decoration: none; 
     color: white;
 }
